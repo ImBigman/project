@@ -34,7 +34,9 @@ group :development, :test do
   gem 'capybara-email'
   gem 'factory_bot_rails'
   gem 'letter_opener'
+  gem 'nenv', '~> 0.1'
   gem 'rspec-rails', '~> 4.0.0.beta'
+  gem 'spring-commands-rspec'
 end
 
 group :development do
@@ -48,6 +50,8 @@ end
 
 group :test do
   gem 'capybara', '>= 2.15'
+  gem 'capybara-screenshot'
+  gem 'fuubar'
   gem 'launchy'
   gem 'rails-controller-testing'
   gem 'selenium-webdriver'

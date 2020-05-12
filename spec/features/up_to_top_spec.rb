@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'screenshot_helper' unless Nenv.skip_sc?
 
 feature 'User can use button for scroll to up.', %q(
 "In order to going to top
