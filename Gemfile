@@ -19,7 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'jquery-rails'
-gem 'nokogiri', '~> 1.12.5'
+gem 'nokogiri', '~> 1.13.5'
 gem 'oj'
 gem 'react-rails'
 gem 'redis-rails'
